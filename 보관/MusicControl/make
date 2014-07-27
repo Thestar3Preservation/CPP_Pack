@@ -1,0 +1,5 @@
+#!/bin/bash
+source ~/.bash_profile
+LOAD_USER_FUNTION
+
+exec compile -n -o "-lsqlite3 $(pkg-config --libs --cflags libnotify)" MusicControl.cpp

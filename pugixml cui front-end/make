@@ -1,0 +1,5 @@
+#!/bin/bash
+source ~/.bash_profile
+LOAD_USER_FUNTION
+
+exec compile -n -i.

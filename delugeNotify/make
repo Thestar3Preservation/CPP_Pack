@@ -1,0 +1,5 @@
+#!/bin/bash
+source ~/.bash_profile
+LOAD_USER_FUNTION
+cd0
+exec compile -n -idelugeNotify -o "$(pkg-config --libs --cflags libnotify)"

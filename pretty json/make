@@ -1,0 +1,7 @@
+#!/bin/bash
+source ~/.bash_profile
+LOAD_USER_FUNTION
+
+make release && make install && make clean
+
+exit
